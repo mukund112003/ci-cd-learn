@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - development # Triggers when you push to development
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   test_and_build:
