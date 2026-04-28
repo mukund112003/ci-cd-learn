@@ -1,5 +1,6 @@
+import 'package:Haptic/Haptic/haptic_demo.dart';
 import 'package:flutter/material.dart';
-import 'screens/todo_list_screen.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'To-Do App',
+      title: 'Haptic',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
@@ -20,9 +21,9 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
         fontFamily: 'Roboto',
-        appBarTheme: const AppBarTheme(foregroundColor: Colors.white),
+        appBarTheme: const AppBarTh eme(foregroundColor: Colors.white),
       ),
-      home: const TodoListScreen(),
+      home: const HapticDemo(),
     );
   }
 }

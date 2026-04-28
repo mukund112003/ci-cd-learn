@@ -1,0 +1,489 @@
+[
+  {
+    "comment": "triple shot",
+    "time": 16827,
+    "pattern": [0, 30, 20, 50, 150, 30, 20, 50, 90, 30, 20, 50],
+    "intensities": [0, 255, 0, 120, 0, 255, 0, 120, 0, 255, 0, 120],
+    "sharpness" : 0.7
+    },
+  {
+    "comment": "triple shot",
+    "time": 19135,
+    "pattern": [0, 30, 20, 50, 150, 30, 20, 50, 90, 30, 20, 50],
+    "intensities": [0, 255, 0, 120, 0, 255, 0, 120, 0, 255, 0, 120],
+    "sharpness" : 0.7
+  },
+  {
+    "comment": "Double shot",
+    "time": 21480,
+    "pattern": [0, 30, 20, 50, 150, 30, 20, 50],
+    "intensities": [0, 255, 0, 120, 0, 255, 0, 120],
+    "sharpness" : 0.1
+  },
+  {
+    "comment": "1 shot of machine gun",
+    "time": 26430,
+    "pattern": [0, 100, 30, 30, 20, 30],
+    "intensities": [0, 255, 0, 255, 0, 100],
+      "sharpness" : 0.7
+  },
+  {
+    "comment": "1 Gun shot",
+    "time": 27400,
+    "pattern": [0, 100, 30, 30, 20, 30],
+    "intensities": [0, 255, 0, 255, 0, 100],
+    "sharpness" : 0.7
+  },
+  {
+    "comment": "1 Gun shot",
+    "time": 27633,
+      "pattern": [
+            0, 25, 35, 20, 25, 30, 40, 25, 30, 35, 
+            25, 30, 35, 25, 30, 40, 20, 35, 45, 45, 
+            25, 30, 30, 50, 20, 40, 40, 55
+          ],
+            "intensities": [
+            0, 60, 0, 75, 0, 90, 0, 80, 0, 110, 
+            0, 100, 0, 130, 0, 145, 0, 120, 0, 160, 
+            0, 150, 0, 180, 0, 165, 0, 200
+          ],
+      
+    "sharpness" : 0.8
+  },
+  {
+    "comment": "1 Gun shot",
+    "time": 31400,
+    "pattern": [0, 30, 20, 50],
+    "intensities": [0, 255, 0, 120],
+    "sharpness" : 0.7
+  },
+  {
+    "comment": "Lighter spark",
+    "time": 33400,
+    "pattern": [0, 20, 15, 30, 15, 20],
+    "intensities": [0, 155, 0, 120, 0, 60],
+    "sharpness" : 0.1
+  },
+  {
+    "comment": "1 Gun shot",
+    "time": 40250,
+    "pattern": [0, 20, 15, 30, 15, 20],
+    "intensities": [0, 255, 0, 120, 0, 60],
+    "sharpness" : 0.9
+  },
+  {
+    "comment": "1 Gun shot",
+    "time": 40590,
+    "pattern": [0, 20, 15, 30, 15, 20],
+    "intensities": [0, 255, 0, 120, 0, 60],
+    "sharpness" : 0.9
+  },
+  {
+    "comment": "2 Gun shot Machine",
+    "time": 42100,
+   "pattern": [0, 100, 30, 30, 20, 30],
+    "intensities": [0, 255, 0, 255, 0, 100]
+  },
+  {
+    "comment": "1 Gun shot",
+    "time": 42700,
+    "pattern": [0, 20, 15, 30, 15, 20],
+    "intensities": [0, 255, 0, 120, 0, 60]
+  },
+  {
+    "comment": "1 Gun shot",
+    "time": 43200,
+    "pattern": [0, 20, 15, 30, 15, 20],
+    "intensities": [0, 255, 0, 120, 0, 60]
+  },
+  {
+    "comment": "1 Gun shot",
+    "time": 44400,
+    "pattern": [0, 20, 15, 30, 15, 20],
+    "intensities": [0, 255, 0, 120, 0, 60]
+  },
+  {
+    "comment": "Petrol Ignition",
+    "time": 50580,
+      "pattern": [
+            0, 30, 10, 50, 10, 80, 10, 100, 15, 130, 15, 100, 20, 60, 20, 40
+          ],
+          
+       "intensities": [
+            0, 110, 0, 80, 0, 150, 0, 150, 0, 100, 0, 80, 0, 60, 0, 20
+          ],
+          "sharpness": 0.1
+  },
+  {
+    "comment": "Fire",
+    "time": 51200,
+        "pattern": [
+            0,
+            40,
+            90,
+            35,
+            140,
+            45,
+            80,
+            30,
+            180,
+            50,
+            110,
+            35,
+            100,
+            40,
+            130,
+            55,
+            90,
+            30,
+            180,
+            45,
+            100,
+            35
+          ],
+
+          "intensities": [
+            0,
+            80,
+            0,
+            60,
+            0,
+            90,
+            0,
+            70,
+            0,
+            110,
+            0,
+            80,
+            0,
+            90, 
+            0,
+            130,
+            0,
+            70,
+            0,
+            100,
+            0,
+            80
+          ],
+
+          "sharpness": 0.1
+  },
+  {
+    "comment": "Light Lighter spark",
+    "time": 54000,
+    "pattern": [0, 20, 15, 30, 15, 50],
+    "intensities": [0, 155, 0, 120, 0, 80],
+    "sharpness" : 0.1
+  },
+  {
+    "comment": "Bomb blast",
+    "time": 55800,
+    "pattern": [0, 300, 10, 20],
+    "intensities": [0, 160, 0, 30],
+    "sharpness" : 0.1
+  },
+  {
+    "comment": "Chain sound",
+    "time": 63600,
+     "pattern": [
+            0, 25, 35, 20, 25, 30, 40, 25, 30, 35, 
+            25, 30, 35, 25, 30, 40, 20, 35, 45, 45, 
+            25, 30, 30, 50, 20, 40, 40, 55
+          ],
+            "intensities": [
+            0, 60, 0, 75, 0, 90, 0, 80, 0, 110, 
+            0, 100, 0, 130, 0, 145, 0, 120, 0, 160, 
+            0, 150, 0, 180, 0, 165, 0, 200
+          ],
+      
+    "sharpness" : 0.8
+  },
+  {
+    "comment": "Chain sound",
+    "time": 67100,
+     "pattern": [
+            0, 25, 35, 20, 25, 30, 40, 25, 30, 35, 
+            25, 30, 35, 25, 30, 40, 20, 35, 45, 45, 
+            25, 30, 30, 50, 20, 40, 40, 55
+          ],
+            "intensities": [
+            0, 60, 0, 75, 0, 90, 0, 80, 0, 110, 
+            0, 100, 0, 130, 0, 145, 0, 120, 0, 160, 
+            0, 150, 0, 180, 0, 165, 0, 200
+          ],
+      
+    "sharpness" : 0.8
+  },
+   {
+    "comment": "Bomb blast",
+    "time": 80450,
+    "pattern": [0, 300, 10, 20],
+    "intensities": [0, 160, 0, 30],
+    "sharpness" : 0.1
+  },
+   {
+    "comment": "Launcher",
+    "time": 85100,
+    "pattern": [0, 100, 20, 50, 20, 50],
+    "intensities": [0, 255, 0, 200, 0, 150],
+    "sharpness" : 0.5
+  },
+   {
+    "comment": "Launcher",
+    "time": 86003,
+    "pattern": [0, 100, 20, 50, 20, 50],
+    "intensities": [0, 255, 0, 200, 0, 150],
+    "sharpness" : 0.5
+  },
+   {
+    "comment": "Petrol Ignition",
+    "time": 100250,
+      "pattern": [
+            0, 30, 10, 50, 10, 80, 10, 120, 15, 150, 15, 100, 20, 60, 20, 40
+          ],
+          
+       "intensities": [
+            0, 120, 0, 150, 0, 200, 0, 200, 0, 150, 0, 100, 0, 80, 0, 40
+          ],
+          "sharpness": 0.1
+  },
+  {
+    "comment": "Fire",
+    "time": 100900,
+        "pattern": [
+            0,
+            40,
+            90,
+            35,
+            140,
+            45,
+            80,
+            30,
+            180,
+            50,
+            110,
+            35,
+            100,
+            40,
+            130,
+            55,
+            90,
+            30,
+            180,
+            45,
+            100,
+            35
+          ],
+
+          "intensities": [
+            0,
+            80,
+            0,
+            60,
+            0,
+            90,
+            0,
+            70,
+            0,
+            110,
+            0,
+            80,
+            0,
+            90, 
+            0,
+            130,
+            0,
+            70,
+            0,
+            100,
+            0,
+            80
+          ],
+
+          "sharpness": 0.1
+  },
+  {
+    "comment": "Fire",
+    "time": 102100,
+        "pattern": [
+            0,
+            40,
+            90,
+            35,
+            140,
+            45,
+            80,
+            30,
+            180,
+            50,
+            110,
+            35,
+            100,
+            40,
+            130,
+            55,
+            90,
+            30,
+            180,
+            45,
+            100,
+            35
+          ],
+
+          "intensities": [
+            0,
+            80,
+            0,
+            60,
+            0,
+            90,
+            0,
+            70,
+            0,
+            110,
+            0,
+            80,
+            0,
+            90, 
+            0,
+            130,
+            0,
+            70,
+            0,
+            100,
+            0,
+            80
+          ],
+
+          "sharpness": 0.1
+  },
+   {
+    "comment": "2x bass",
+    "time": 132200,
+    "pattern": [0, 70, 170, 70, 100],
+    "intensities": [0, 150, 0, 150, 180],
+    "sharpness" : 0.1
+  },
+   {
+    "comment": "2x bass",
+    "time": 133400,
+    "pattern": [0, 70, 170, 70, 100],
+    "intensities": [0, 150, 0, 150, 180],
+    "sharpness" : 0.1
+  },
+   {
+    "comment": "2x bass",
+    "time": 134500,
+    "pattern": [0, 70, 170, 70, 100],
+    "intensities": [0, 150, 0, 150, 180],
+    "sharpness" : 0.1
+  },
+   {
+    "comment": "Bomb blast",
+    "time": 143972,
+     "pattern": [0, 300, 10, 20],
+    "intensities": [0, 160, 0, 30],
+    "sharpness" : 0.1
+  },
+   {
+    "comment": "Bomb blast",
+    "time": 144312,
+     "pattern": [0, 300, 10, 20],
+    "intensities": [0, 160, 0, 30],
+    "sharpness" : 0.1
+  },
+   {
+    "comment": "Bomb blast",
+    "time": 144650,
+     "pattern": [0, 300, 10, 20],
+    "intensities": [0, 160, 0, 30],
+    "sharpness" : 0.1
+  },
+   {
+    "comment": "Bomb blast",
+    "time": 145712,
+     "pattern": [0, 300, 10, 20],
+    "intensities": [0, 160, 0, 30],
+    "sharpness" : 0.1
+  },
+   {
+    "comment": "Bomb blast",
+    "time": 146070,
+     "pattern": [0, 300, 10, 20],
+    "intensities": [0, 160, 0, 30],
+    "sharpness" : 0.1
+  },
+   {
+    "comment": "Knife (simple bass)",
+    "time": 148400,
+    "pattern": [0, 200, 10, 20],
+    "intensities": [0, 160, 0, 30],
+    "sharpness" : 0.1
+  },
+   {
+    "comment": "Knife (simple bass)",
+    "time": 149000,
+    "pattern": [0, 200, 10, 20],
+    "intensities": [0, 160, 0, 30],
+    "sharpness" : 0.1
+  },
+   {
+    "comment": "Knife (simple bass)",
+    "time": 149700,
+    "pattern": [0, 300, 10, 20],
+    "intensities": [0, 160, 0, 30],
+    "sharpness" : 0.1
+  },
+   {
+    "comment": "1 Gun shot",
+    "time": 154300,
+    "pattern": [0, 30, 20, 50],
+    "intensities": [0, 255, 0, 120],
+    "sharpness" : 0.7
+  },
+   {
+    "comment": "1 Gun shot",
+    "time": 154550,
+    "pattern": [0, 30, 20, 50],
+    "intensities": [0, 255, 0, 120],
+    "sharpness" : 0.7
+  },
+   {
+    "comment": "Bomb blast",
+    "time": 155350,
+   "pattern": [0, 300, 10, 20],
+    "intensities": [0, 140, 0, 30],
+    "sharpness" : 0.1
+  },
+   {
+    "comment": "Bomb blast",
+    "time": 156500,
+   "pattern": [0, 300, 10, 20],
+    "intensities": [0, 140, 0, 30],
+    "sharpness" : 0.1
+  },
+   {
+    "comment": "Bomb blast",
+    "time": 157750,
+   "pattern": [0, 300, 10, 20],
+    "intensities": [0, 140, 0, 30],
+    "sharpness" : 0.1
+  },
+   {
+    "comment": "Bomb blast",
+    "time": 161050,
+   "pattern": [0, 300, 10, 20],
+    "intensities": [0, 140, 0, 30],
+    "sharpness" : 0.1
+  },
+   {
+    "comment": "Bomb blast",
+    "time": 164350,
+   "pattern": [0, 300, 10, 40],
+    "intensities": [0, 180, 0, 100],
+    "sharpness" : 0.1
+  }
+   
+
+]

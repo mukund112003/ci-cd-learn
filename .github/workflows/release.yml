@@ -1,55 +1,55 @@
-name: Flutter CI/CD
+# name: Flutter CI/CD
 
-on:
-  push:
-    branches:
-      - development # Triggers when you push to development
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+# on:
+#   push:
+#     branches:
+#       - development # Triggers when you push to development
+# env:
+#   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
-jobs:
-  test_and_build:
-    runs-on: ubuntu-latest
+# jobs:
+#   test_and_build:
+#     runs-on: ubuntu-latest
 
-    steps:
-      # 1. Checkout the code
-      - name: Checkout code
-        uses: actions/checkout@v4
+#     steps:
+#       # 1. Checkout the code
+#       - name: Checkout code
+#         uses: actions/checkout@v4
 
-      # 2. Setup Java (Required for Android builds)
-      - name: Setup Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'zulu'
-          java-version: '17'
+#       # 2. Setup Java (Required for Android builds)
+#       - name: Setup Java
+#         uses: actions/setup-java@v4
+#         with:
+#           distribution: 'zulu'
+#           java-version: '17'
 
-      # 3. Setup Flutter
-      - name: Setup Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          flutter-version: '3.x' # Uses the latest stable 3.x version
-          channel: 'stable'
+#       # 3. Setup Flutter
+#       - name: Setup Flutter
+#         uses: subosito/flutter-action@v2
+#         with:
+#           flutter-version: '3.x' # Uses the latest stable 3.x version
+#           channel: 'stable'
 
-      # 4. Get dependencies
-      - name: Install dependencies
-        run: flutter pub get
+#       # 4. Get dependencies
+#       - name: Install dependencies
+#         run: flutter pub get
 
-      # 5. Run Flutter Tests
-      - name: Run tests
-        run: flutter test
+#       # 5. Run Flutter Tests
+#       - name: Run tests
+#         run: flutter test
 
-      # 6. Build Android APK
-      - name: Build APK
-        run: flutter build apk --release
+#       # 6. Build Android APK
+#       - name: Build APK
+#         run: flutter build apk --release
 
-      # 7. Create GitHub Release and Upload APK
-      - name: Create Release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: v${{ github.run_number }}
-          name: Release v${{ github.run_number }}
-          draft: false
-          prerelease: false
-          files: build/app/outputs/flutter-apk/app-release.apk
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#       # 7. Create GitHub Release and Upload APK
+#       - name: Create Release
+#         uses: softprops/action-gh-release@v2
+#         with:
+#           tag_name: v${{ github.run_number }}
+#           name: Release v${{ github.run_number }}
+#           draft: false
+#           prerelease: false
+#           files: build/app/outputs/flutter-apk/app-release.apk
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
